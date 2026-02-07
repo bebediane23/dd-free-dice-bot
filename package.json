@@ -1,9 +1,13 @@
 {
   "name": "dd-free-dice-bot",
   "version": "1.0.0",
-  "type": "module",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "discord.js": "^14.14.1",
-    "node-fetch": "^3.3.2"
+    "node-fetch": "^2.6.7"
   }
 }
