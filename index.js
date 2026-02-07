@@ -1,3 +1,13 @@
+const { Client, GatewayIntentBits } = require("discord.js");
+
+const client = new Client({
+  intents: [
+    GatewayIntentBits.Guilds,
+    GatewayIntentBits.GuildMessages,
+    GatewayIntentBits.MessageContent
+  ]
+});
+
 import fetch from "node-fetch";
 import { Client, GatewayIntentBits } from "discord.js";
 import fs from "fs";
